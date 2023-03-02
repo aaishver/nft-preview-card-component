@@ -75,11 +75,11 @@ span{
     margin: -273px 16.5px;
     width: 270px;
     opacity: 0;
-    transition: .5s ease;
     background-color: hsl(178, 100%, 50%);
     height: 270px;
 }
 .overlay:hover{
+    transition: .5s ease;
     opacity: 0.5;
 }
 .overlay:hover .eye-con{

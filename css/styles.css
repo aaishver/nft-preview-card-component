@@ -1,0 +1,126 @@
+
+/* tag section */
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    padding-top: 7rem;
+    color: white;
+}
+main{
+    text-align: start;
+    margin: 0 0.9rem;
+}
+h1{
+    font-size: x-large;
+}
+h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+h3{
+    margin: 0;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+    font-size: 18px;
+}
+span{
+    vertical-align: text-top;
+}
+
+/* container section */
+
+.main-container{
+    width: 300px;
+    height: 500px;
+    margin-inline: auto;
+    border-radius: 12px;
+    background-color: hsl(216, 50%, 16%);
+    text-align: center;
+    padding-top: 14px;
+}
+.creator-container{
+    padding-top: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.nft-img{
+    border-radius: 8px;
+    width: 90%;
+}
+.rate-time{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.attribution { 
+    padding-top: 1rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* hover section on the nft image */
+
+.overlay{
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    margin: -273px 16.5px;
+    width: 270px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+    height: 270px;
+}
+.overlay:hover{
+    opacity: 0.5;
+}
+.overlay:hover .eye-con{
+    opacity:2;
+}
+.eye-con{
+    padding-top: 7rem;
+}
+
+/* id section */
+
+#creator{
+    font-weight: 400;
+    margin: 10px;
+}
+#creator:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+#eth-text{
+    color: hsl(178, 100%, 50%);
+}
+#creation{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+#avatar-end{
+    width: 15%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* media queries */
+
+@media (max-width:355px) {
+    .creator-container{
+        font-size: small;
+    }
+    #creation{
+        font-size: 16px;
+    }
+
+}
